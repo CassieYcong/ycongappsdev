@@ -17,6 +17,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@prisma/orm-postgres": "^8.0.0-rc.11",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "csrf-csrf": "^4.0.3",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@prisma/cli-engine": "^0.4.0",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
@@ -41,6 +43,7 @@
     "@typescript-eslint/parser": "^8.70.0",
     "eslint": "^10.11.0",
     "jiti": "^2.7.0",
+    "prisma": "^8.0.0-rc.15",
     "tsdown": "^0.23.0",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",
